@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    //baris 1//
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn0"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="#453D3D"
+        android:text="0"
+        android:textSize="35sp"
+        app:cornerRadius="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnkoma"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="205dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="#453D3D"
+        android:bottom="4dp"
+        android:left="4dp"
+        android:right="4dp"
+        android:text="."
+        android:textSize="35sp"
+        android:top="4dp"
+        app:cornerRadius="1000dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnsamadengan"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="295dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="#FBA800"
+        android:bottom="4dp"
+        android:left="4dp"
+        android:right="4dp"
+        android:text="="
+        android:textSize="35sp"
+        android:top="4dp"
+        app:cornerRadius="1000dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    //baris 2//
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn1"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="140dp"
+        android:backgroundTint="#453D3D"
+        android:bottom="4dp"
+        android:left="4dp"
+        android:right="4dp"
+        android:text="1"
+        android:textSize="35sp"
+        android:top="4dp"
+        app:cornerRadius="1000dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn2"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="115dp"
+        android:layout_marginBottom="140dp"
+        android:backgroundTint="#453D3D"
+        android:bottom="4dp"
+        android:left="4dp"
+        android:right="4dp"
+        android:text="2"
+        android:textSize="35sp"
+        android:top="4dp"
+        app:cornerRadius="1000dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn3"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="205dp"
+        android:layout_marginBottom="140dp"
+        android:backgroundTint="#453D3D"
+        android:bottom="4dp"
+        android:left="4dp"
+        android:right="4dp"
+        android:text="3"
+        android:textSize="35sp"
+        android:top="4dp"
+        app:cornerRadius="1000dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btntambah"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="295dp"
+        android:layout_marginBottom="140dp"
+        android:backgroundTint="#FBA800"
+        android:bottom="4dp"
+        android:left="4dp"
+        android:right="4dp"
+        android:text="+"
+        android:textSize="35sp"
+        android:top="4dp"
+        app:cornerRadius="1000dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    //baris 3//
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn4"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="230dp"
+        android:backgroundTint="#453D3D"
+        android:bottom="4dp"
+        android:left="4dp"
+        android:right="4dp"
+        android:text="4"
+        android:textSize="35sp"
+        android:top="4dp"
+        app:cornerRadius="1000dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn5"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="115dp"
+        android:layout_marginBottom="230dp"
+        android:backgroundTint="#453D3D"
+        android:bottom="4dp"
+        android:left="4dp"
+        android:right="4dp"
+        android:text="5"
+        android:textSize="35sp"
+        android:top="4dp"
+        app:cornerRadius="1000dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn6"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="205dp"
+        android:layout_marginBottom="230dp"
+        android:backgroundTint="#453D3D"
+        android:bottom="4dp"
+        android:left="4dp"
+        android:right="4dp"
+        android:text="6"
+        android:textSize="35sp"
+        android:top="4dp"
+        app:cornerRadius="1000dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnkurang"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="295dp"
+        android:layout_marginBottom="230dp"
+        android:backgroundTint="#FBA800"
+        android:bottom="4dp"
+        android:left="4dp"
+        android:right="4dp"
+        android:text="-"
+        android:textSize="35sp"
+        android:top="4dp"
+        app:cornerRadius="1000dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    //baris 4//
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn7"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="320dp"
+        android:backgroundTint="#453D3D"
+        android:bottom="4dp"
+        android:left="4dp"
+        android:right="4dp"
+        android:text="7"
+        android:textSize="35sp"
+        android:top="4dp"
+        app:cornerRadius="1000dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn8"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="115dp"
+        android:layout_marginBottom="320dp"
+        android:backgroundTint="#453D3D"
+        android:bottom="4dp"
+        android:left="4dp"
+        android:right="4dp"
+        android:text="8"
+        android:textSize="35sp"
+        android:top="4dp"
+        app:cornerRadius="1000dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn9"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="205dp"
+        android:layout_marginBottom="320dp"
+        android:backgroundTint="#453D3D"
+        android:bottom="4dp"
+        android:left="4dp"
+        android:right="4dp"
+        android:text="9"
+        android:textSize="35sp"
+        android:top="4dp"
+        app:cornerRadius="1000dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnkali"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="295dp"
+        android:layout_marginBottom="320dp"
+        android:backgroundTint="#FBA800"
+        android:bottom="4dp"
+        android:left="4dp"
+        android:right="4dp"
+        android:text="×"
+        android:textSize="35sp"
+        android:top="4dp"
+        app:cornerRadius="1000dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    //baris 5//
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnAC"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="410dp"
+        android:backgroundTint="#EAEAEA"
+        android:textColor="@color/black"
+        android:bottom="4dp"
+        android:left="4dp"
+        android:right="4dp"
+        android:text="AC"
+        android:textSize="25sp"
+        android:top="4dp"
+        app:cornerRadius="1000dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnhapus"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="115dp"
+        android:layout_marginBottom="410dp"
+        android:backgroundTint="#EAEAEA"
+        android:textColor="@color/black"
+        android:bottom="4dp"
+        android:left="4dp"
+        android:right="4dp"
+        android:text="⌫"
+        android:textSize="35sp"
+        android:top="4dp"
+        app:cornerRadius="1000dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnpersen"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="205dp"
+        android:layout_marginBottom="410dp"
+        android:backgroundTint="#EAEAEA"
+        android:textColor="@color/black"
+        android:bottom="4dp"
+        android:left="4dp"
+        android:right="4dp"
+        android:text="%"
+        android:textSize="35sp"
+        android:top="4dp"
+        app:cornerRadius="1000dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnbagi"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="295dp"
+        android:layout_marginBottom="410dp"
+        android:backgroundTint="#FBA800"
+        android:bottom="4dp"
+        android:left="4dp"
+        android:right="4dp"
+        android:text="÷"
+        android:textSize="35sp"
+        android:top="4dp"
+        app:cornerRadius="1000dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+
+    <TextView
+        android:id="@+id/tvoutput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:padding="15dp"
+        android:textAlignment="textEnd"
+        android:textSize="60sp"
+        android:hint="0"
+        android:layout_marginTop="75dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/tvinput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:padding="15dp"
+        android:textAlignment="textEnd"
+        android:textSize="30sp"
+        android:hint="0"
+        android:layout_marginTop="0dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
